@@ -1,0 +1,6 @@
+
+print("Hello! Main AI Dost hun 🤖")
+name = input("Apna naam batao: ")
+print("Khush aamdeed", name, "Kya sawal hai?")
+question = input("Sawal likho: ")
+print("AI jawab: Ye bohat acha sawal hai", name,
