@@ -1,0 +1,19 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Data
+data = {
+    'Mahina': ['Jan', 'Feb', 'Mar', 'Apr'],
+    'Sale': [100, 150, 130, 200]
+}
+df = pd.DataFrame(data)
+
+# Graph
+plt.bar(df['Mahina'], df['Sale'])
+plt.title('4 Mahine ki Sale')
+plt.xlabel('Mahina')
+plt.ylabel('Sale Rs')
+
+# Save
+plt.savefig('sale_graph.png')
+print("Graph ban gaya! sale_graph.png check karo")
